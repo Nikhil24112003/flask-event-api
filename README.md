@@ -33,28 +33,28 @@ All events are stored in a JSON file (`events.json`) for **data persistence**.
 ---
 
 ## How TO Run 
-pip install -r requirements.txt
-python app.py
-App will start at: http://127.0.0.1:5000/
+- pip install -r requirements.txt
+- python app.py
+- App will start at: http://127.0.0.1:5000/
 
 ## API Endpoints :
  # Create Event  
-  Method: POST
-  URL: /events
-  Body (JSON):
+  - Method: POST
+  - URL: /events
+  - Body (JSON):
 
   # View Events
-  Method: GET
-  URL: /events
+  - Method: GET
+  - URL: /events
 
   # Update Event
-  Method: PUT
-  URL: /events/<event_id> - Enter Event Id
-  Body (JSON):
+  - Method: PUT
+  - URL: /events/<event_id> - Enter Event Id
+  - Body (JSON):
 
   # Delete Event
-  Method: DELETE
-  URL: /events/<event_id> -Enter Event Id
+  - Method: DELETE
+  - URL: /events/<event_id> -Enter Event Id
 
 ## Postman Collection
 Nikhil_Event_Manager(Flask REST API).postman_collection.json
