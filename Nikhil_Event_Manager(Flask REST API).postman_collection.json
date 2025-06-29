@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "db7dc82c-26a8-4476-893a-2c0774df26b2",
+		"name": "Nikhil_Event_Manager(Flask REST API)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46271361"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/events/871cb5f6-2ac3-48c3-97c2-f25e6a8678e7",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/871cb5f6-2ac3-48c3-97c2-f25e6a8678e7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"871cb5f6-2ac3-48c3-97c2-f25e6a8678e7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/events/871cb5f6-2ac3-48c3-97c2-f25e6a8678e7",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Meeting\",\r\n  \"description\": \"Team discussion\",\r\n  \"start_time\": \"2025-07-01 09:00\",\r\n  \"end_time\": \"2025-07-01 10:00\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/871cb5f6-2ac3-48c3-97c2-f25e6a8678e7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"871cb5f6-2ac3-48c3-97c2-f25e6a8678e7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/events",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Meeting\",\r\n  \"description\": \"Team discussion\",\r\n  \"start_time\": \"2025-07-01 09:00\",\r\n  \"end_time\": \"2025-07-01 10:00\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
